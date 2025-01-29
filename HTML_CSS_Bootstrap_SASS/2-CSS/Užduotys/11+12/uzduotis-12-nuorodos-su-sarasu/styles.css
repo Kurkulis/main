@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: lavender;
+}
+
+ul li a:hover {
+    border: 1px solid white;
+    color: lightcoral;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.hero {
+    background-image: url('images/ocean-waves.jpeg');
+    height: 75vh;
+    background-size: cover;
+}
+
+.float-box {
+    background-color: #000;
+    text-align: right;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    padding: 10px;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+.text {
+    padding-top: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}

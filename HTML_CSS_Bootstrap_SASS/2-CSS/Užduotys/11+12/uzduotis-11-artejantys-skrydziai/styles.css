@@ -1,0 +1,113 @@
+body {
+    background: #FDFDFD;
+    font-family: Roboto;
+}
+
+#page-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('images/plane.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    padding: 50px;
+    font-size: 100px;
+    font-weight: 700;
+    color: transparent;
+    text-shadow: 0px 4px 2px white, 0 0 0 #0000005e;
+}
+
+main {
+    padding: 0 100px 100px 100px;
+}
+
+main h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #073590;
+    margin-bottom: 0;
+}
+
+main h3 {
+    margin-top: 0;
+    color: #807D7D;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+main p.info {
+    color: #000000D9;
+    font-size: 10px;
+    background-color: #E6F7FF;
+    border: 1px solid #91D5FF;
+    padding: 5px;
+}
+
+.blue {
+    background: #E0F0FC;
+}
+
+.pink {
+    background: #F4E7FD;
+}
+
+.green {
+    background: #E4FCE0;
+}
+
+.cards-list {
+    padding: 10px;
+    background: #F5F5F5;
+}
+
+.card {
+    width: 400px;
+    box-shadow: 0px 1px 4px 0px #0000004D;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .container {
+    padding: 15px;
+}
+
+.card .date {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.card .destination {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card .reservation {
+    color: #807D7D;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.card button {
+    padding: 10px;
+    background: linear-gradient(90deg, #073590 21.43%, #3D7BF5 83.33%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

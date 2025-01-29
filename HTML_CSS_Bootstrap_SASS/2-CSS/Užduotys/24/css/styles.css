@@ -1,0 +1,481 @@
+header,
+footer {
+    background-color: #ffffff;
+    color: #222222;
+}
+
+.flex-container {
+    display: flex;
+}
+
+header .top-header,
+footer {
+    background-color: #ffffff;
+    color: #222222;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header .top-header .logo-text,
+.footer-text {
+    padding-left: 150px;
+}
+
+header .top-header .logo-text a {
+    padding: 10px 0;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.83px;
+    text-align: left;
+}
+
+footer .footer-text {
+    padding: 10px 0;
+    text-decoration: none;
+    font-family: 'Raleway';
+    line-height: 25.83px;
+    text-align: left;
+}
+
+header .top-header ul,
+footer ul {
+    padding-right: 150px;
+}
+
+header .top-header ul li,
+footer ul li {
+    list-style: none;
+    gap: 10px;
+}
+
+header .top-header ul li a,
+footer ul li a {
+    color: #222222;
+    text-decoration: none;
+    margin-left: 25px;
+    border: 10px solid #ffffff;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 19.07px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+header .top-header ul li a:hover {
+    color: #EB5757;
+}
+
+.pradziaa {
+    background-image: url('../Images/Festivalis.svg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.pradzia-text h1 {
+    font-family: 'Raleway';
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 93.92px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.pradzia-text p {
+    font-family: 'Open Sans';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54.47px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.pradzia-buttons {
+    flex-direction: row;
+    gap: 20px;
+}
+
+.pradzia-buttons button {
+    color: #EB5757;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    letter-spacing: 1px;
+    text-align: center;
+    height: 52px;
+    width: 232px;
+}
+
+.pradzia-buttons button:hover {
+    background-color: #EB5757;
+    color: #ffffff;
+}
+
+.pradzia-intro {
+    background-color: #EB5757;
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: center;
+    padding: 10px 190px;
+}
+
+.artist-line h4 {
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.18px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#slide-atlikejai {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 115vh;
+    background-color: #f8f8f8;
+}
+
+.artist-line p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    width: 200px;
+    text-align: center;
+    margin: 0;
+}
+
+.artist-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artist-line {
+    margin-top: 32px;
+    gap: 55px;
+}
+
+.line {
+    width: 25px;
+    height: 5px;
+    margin: 10px auto;
+    background-color: #EB5757;
+}
+
+.artist-info h1 {
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+.artist-info p {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: center;
+    width: 735px;
+}
+
+#slide-galerija {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 110vh;
+    background-color: #f7e9e9;
+}
+
+#slide-galerija .galerija-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    width: 1350px;
+}
+
+#slide-galerija .galerija-info p {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    width: 800px;
+}
+
+#slide-galerija .galerija-info h1 {
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58.7px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 52px;
+    margin-bottom: 10px;
+}
+
+#slide-galerija .galerija-images img {
+    height: 230px;
+    width: 230px;
+}
+
+#slide-bilietai {
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+}
+
+.bilietai-info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#slide-bilietai .bilietai-info h1 {
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58.7px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 52px;
+    margin-bottom: 10px;
+}
+
+#slide-bilietai .bilietai-info p {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    width: 800px;
+}
+
+.kaina {
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.bilietai-block-top {
+    background-color: #ffffff;
+    border-bottom: #0000001A solid 2px;
+}
+
+.bilietai-block-bottom {
+    background-color: #ffffff;
+    height: 220px;
+    justify-items: center;
+    padding-top: 20px;
+}
+
+.bilietai-block-top h1,
+.bilietai-block-bottom p,
+.bilietai-block-top,
+.bilietai-block-bottom {
+    margin: 0;
+}
+
+.bilietai-block {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    box-shadow: 0px 0px 10px #a6a6a6;
+}
+
+.bilietai-blocks {
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.bilietai-block-top {
+    padding: 20px 20px;
+}
+
+.bilietai-block-top h1 {
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.83px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bilietai-block-bottom-text {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    width: 290px;
+    padding-bottom: 20px;
+
+}
+
+.bilietai-block-bottom-price {
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.18px;
+    letter-spacing: 2px;
+
+}
+
+.bilietai-block-bottom-amount {
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 2px;
+    color: #EB5757;
+}
+
+.bilietai-block .bilietai-block-bottom button {
+    background-color: #EB5757;
+    color: #ffffff;
+    padding: 10px 40px;
+    border: none;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    letter-spacing: 1px;
+}
+
+#slide-vieta {
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #f7e9e9;
+}
+
+.location-info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-info h1 {
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58.7px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.location-info p {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    width: 800px;
+    justify-content: center;
+    display: flex;
+}
+
+.location-location {
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+#slide-susisiekti {
+    height: 80vh;
+    background-color: #f8f8f8;
+}
+
+.susisiekti-info {
+    flex-direction: column;
+    text-align: center;
+}
+
+.susisiekti-info h1 {
+    font-family: 'Raleway';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.7px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.duomenys {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    height: 35px;
+    width: 295px;
+}
+
+form button {
+    margin-top: 50px;
+    width: 235px;
+    height: 40px;
+    border: none;
+    background-color: #EB5757;
+    color: #ffffff;
+    align-items: center;
+    margin-left: 30px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    letter-spacing: 1px;
+}
+
+form button:hover {
+    cursor: pointer;
+}
+
+label {
+    margin-top: 5px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+}

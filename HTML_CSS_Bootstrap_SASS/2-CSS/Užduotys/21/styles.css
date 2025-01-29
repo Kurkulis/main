@@ -1,0 +1,155 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.page-cont {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.flex-cont {
+    display: flex;
+}
+
+header {
+    background-color: black;
+    padding: 0 20px;
+    width: 100%;
+
+}
+
+header nav {
+    width: 100%;
+}
+
+header nav ul {
+    padding: 20px 0;
+    align-items: center;
+    text-align: center;
+}
+
+header nav ul li {
+    list-style: none;
+    width: 20%;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+
+}
+
+
+
+
+
+main { 
+    background-image: url('image\ 5.svg'), linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+    background-blend-mode: overlay;
+    padding: 80px 0;
+}
+
+.fonas {
+    background-color: black;
+    width: 800px;
+    margin: 0 auto;
+    padding: 70px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.centro-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 40px; 
+}
+.centro-text h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    margin: 60px 0 60px 0;
+}
+.centro-text p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 20px 0 20px 0;
+}
+
+
+
+
+.cards {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+.card {
+    border: white 2px solid;
+    width: 30%;
+    padding: 46px 0;
+    
+}
+.card img {
+    margin-bottom: 46px;
+}
+.card h1 {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+.card p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    padding: 0 40px;
+}
+.card button {
+    color: #9661e8;
+    text-transform: uppercase;
+    background: none;
+    border: 1px solid #000;
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: 0.08em;
+    line-height: 23px;
+    width: 159px;
+    height: 50px;
+}
+.line {
+    width: 50px;
+    height: 3px;
+    margin: 10px auto;
+    background-color: #fff;
+}
+.card button:hover {
+    border-color: #9661e8;
+    cursor: pointer;
+}
+
+
+
+
+
+footer {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}

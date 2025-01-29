@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.sticky-title {
+    background: linear-gradient(180deg, #AFBACB 0%, #fff);
+    position: sticky;
+    top: 0px;
+}
+
+.sticky-title h2 {
+    margin: 0;
+    padding: 15px 0;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.42px;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.content p {
+    width: 80%;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 0.42px;
+}

@@ -1,0 +1,47 @@
+body {
+    background-image: url('fonas.jpg');
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    padding-bottom:20px ;
+
+}
+main {
+    background-color: black;
+    color: white;
+    margin-top: 200px;
+    margin-left: 1250px;
+    margin-right: 500px;
+}
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding: 50px;
+}
+ul {
+    display: inline-flex;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+a {
+    color:rgb(131, 101, 238);
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}

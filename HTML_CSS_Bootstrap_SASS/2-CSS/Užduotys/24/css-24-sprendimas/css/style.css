@@ -1,0 +1,319 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    font-size:16px;
+    color:#222;
+}
+
+.container {
+    max-width:1220px;
+    margin:0 auto;
+    padding:0 20px;
+}
+
+.flex-container {
+    display:flex;
+}
+
+/* header */
+header {
+    height:120px;
+}
+
+header.flex-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div a {
+    font-family:'Raleway', sans-serif;
+    font-size:1.375rem;
+    font-weight:700;
+    color:#222;
+    text-decoration: none;
+    display:block;
+    min-width:300px;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left:60px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size:0.875rem;
+    letter-spacing: 1px;
+    color:#222;
+    text-transform:uppercase;
+}
+
+header nav ul li a.active {
+    color:#eb5757;
+}
+
+.mobile {
+    display:none;
+}
+
+/* banner */
+.banner {
+    background-image: url('../img/bg1.png');
+    background-size:cover;
+    height:880px;
+    color:#fff;
+}
+
+.banner .container {
+    text-align: center;
+}
+
+.banner-btn {
+    justify-content: center;
+}
+
+h1 {
+    margin:0;
+    padding-top:272px;
+    text-transform: uppercase;
+    font-size:5rem;
+    font-weight:700;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom:16px;
+}
+
+.banner p {
+    font-size:2.5rem;
+    line-height:54px;
+    margin-bottom:43px;
+}
+
+.banner-btn button:hover {
+    cursor:pointer;
+}
+
+.banner-btn button {
+    width:232px;
+    height:52px;
+    border:none;
+    margin:0 10px;
+    font-size:1rem;
+    line-height:21px;
+    letter-spacing: 1px;
+}
+
+.banner-btn .btn1, .highlight {
+    background-color: #eb5757;
+    color:#fff;
+}
+
+.banner-btn .btn2 {
+    background-color: #fff;
+    color:#eb5757;
+}
+
+.highlight {
+    min-height:132px;
+}
+
+.highlight.flex-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight p {
+    margin:0;
+    max-width:950px;
+    text-align: center;
+}
+
+/* sections */
+section {
+    text-align:center;
+    padding:93px 0;
+}
+
+section h2 {
+    margin:0 0 19px 0;
+    text-transform: uppercase;
+    font-size:3.125rem;
+    letter-spacing: 2px;
+    font-weight:700;
+    font-family: 'Raleway', sans-serif;
+}
+
+section h2::after {
+    content:"";
+    display:block;
+    width:31px;
+    margin:22px auto;
+    border-top:5px solid #eb5757;
+}
+
+section p {
+    max-width:735px;
+    margin:0 auto 75px;
+}
+
+/* sections fonai */
+#atlikejai, #bilietai, #susisiekti {
+    background-color:#f8f8f8;
+}
+
+#galerija, #kaip-rasti {
+    background-color:rgba(235,87,87,0.1);
+}
+
+.artists {
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.artist {
+    width:238px;
+    margin:45px 28px;
+    text-align:center;
+}
+
+.artist h4 {
+    margin:36px 0 8px 0;
+    text-transform: uppercase;
+}
+
+.artist p {
+    padding:0 20px;
+    margin:0;
+    font-size:1rem;
+}
+
+/* galerija */
+.foto-galerija.flex-container {
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.thumbnail {
+    width:230px;
+    height:230px;
+    margin-bottom:10px;
+}
+
+.thumbnail img {
+    width:100%;
+}
+
+/* bilietai */
+.kainos.flex-container {
+    justify-content: space-between;
+}
+
+.bilietas {
+    background-color:#fff;
+    text-align:center;
+    max-width:350px;
+    box-shadow:0px 0px 40px rgba(0,0,0,0.05);
+}
+
+.bilietas h4{
+    padding:30px 0;
+    margin:0;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family:'Raleway', sans-serif;
+}
+
+.bilietas p {
+    line-height:21px;
+    margin:29px 0 0 0;
+    font-size:1rem;
+    padding:0 30px;
+}
+
+.bilietas .label, .bilietas .kaina {
+    font-family: 'Raleway', sans-serif;
+    font-size:1.5rem;
+    font-weight:700;
+    letter-spacing: 2px;
+}
+
+.bilietas .kaina {
+    color:#eb5757;
+    font-size:1.625rem;
+}
+
+.bilietas button, form button {
+    width:216px;
+    height:42px;
+    background-color:#eb5757;
+    border:none;
+    color:#fff;
+    font-size:0.875rem;
+    letter-spacing: 1px;
+    margin:23px 0;
+}
+
+/* kaip rasti */
+#kaip-rasti img {
+    max-width:100%;
+}
+
+/* susisiekti */
+form.flex-container {
+    flex-direction:column;
+    align-items: center;
+    max-width:392px;
+    margin:71px auto 0;
+}
+
+input {
+    width:100%;
+    height:40px;
+    border:none;
+    background-color: #fff;
+    color:#222;
+    margin-bottom:20px;
+}
+
+form label {
+    font-size:0.875rem;
+    text-transform: uppercase;
+    align-self:flex-start;
+}
+
+/* footer */
+footer {
+    height:152px;
+}
+
+footer .container {
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+
+footer .copyright {
+    font-size:1rem;
+    line-height: 21px;
+}
+
+footer nav ul li {
+    list-style: none;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color:#222;
+    margin-left:40px;
+}

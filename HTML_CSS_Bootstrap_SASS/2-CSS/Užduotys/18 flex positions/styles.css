@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pirmas,
+.antras,
+.trecias,
+.ketvirtas,
+.penktas {
+    display: flex;
+    height: 400px;
+    padding: 0 15px;
+}
+
+.pirmas {
+    background-color: orange;
+}
+
+.pirmas p {
+    background-color: white;
+    margin: 15px;
+}
+
+.antras {
+    background-color: greenyellow;
+    margin: 0;
+    justify-content: flex-end;
+}
+
+.antras p {
+    background-color: white;
+    margin: 15px;
+
+}
+
+.trecias {
+    margin: 0;
+    background-color: orange;
+    align-items: center;
+}
+
+.trecias p {
+    background-color: white;
+}
+
+.ketvirtas {
+    margin: 0;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+}
+
+.ketvirtas p {
+    background-color: white;
+
+}
+
+.penktas {
+    margin: 0;
+    background-color: red;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.penktas p {
+    background-color: white;
+    margin: 15px;
+}

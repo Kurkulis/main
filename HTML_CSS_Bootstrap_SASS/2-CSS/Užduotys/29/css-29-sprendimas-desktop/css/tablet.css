@@ -1,0 +1,109 @@
+@media screen and (max-width: 768px) and (min-width: 376px) {
+    nav .title {
+        padding-left: 5%;
+    }
+
+    nav ul {
+        gap: 10px;
+        padding-right: 5%;
+    }
+
+    header .container {
+        flex-direction: column-reverse;
+    }
+
+    header .container .info-part {
+        width: 100%;
+        padding: 50px 0 50px 0;
+        justify-content: center;
+    }
+
+    header .info {
+        width: 50%;
+    }
+
+    header .container .welcome-img {
+        width: 100%;
+    }
+
+    section .container .comment {
+        padding: 0 5%;
+    }
+
+    section .container .title h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    section .container .card-s,
+    section .container .title {
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+
+    body section .card-s .card {
+        width: calc((100% - 2 * 24px) / 2);
+    }
+    section .card .price {
+        background: #ffffff;
+        padding: 8px 32px 8px 0;
+    }
+    section .card .button-s {
+        flex-direction: column;
+    }
+    section .card-s .card .button-s .first,
+    section .card-s .card .button-s .second {
+        width: 100%;
+    }
+    section .container .title h3 {
+        font-size: 44px;
+    }
+
+
+
+
+
+
+    footer .container {
+        padding: 20px 5%; 
+    }
+
+    footer .info {
+        width: 100%; 
+        flex-wrap: wrap;
+    }
+
+    footer .brackets1 {
+        flex: 1 1 100%;
+        margin-bottom: 20px; 
+    }
+
+    footer .brackets2,
+    footer .brackets3 {
+        flex: 1 1 calc(50% - 10px);
+        max-width: 45%;
+    }
+
+    footer .brackets3 .contact {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    footer img {
+        width: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}

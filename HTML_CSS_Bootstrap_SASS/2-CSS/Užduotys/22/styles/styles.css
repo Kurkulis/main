@@ -1,0 +1,136 @@
+.flex-conteiner {
+    display: flex;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+}
+
+.page-cont main {
+    display: flex;
+}
+
+.top {
+    background-image: url(../images/top.jpg);
+    background-size: cover;
+    color: #ffffff;
+
+
+}
+
+.toptop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toptop {
+    padding: 20px;
+}
+
+header .top .toptop nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    list-style: none;
+
+
+}
+
+header .top .toptop nav ul li a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'montserrat';
+    font-size: 19px;
+    font-weight: 800;
+    line-height: 23.16px;
+    letter-spacing: 0.1em;
+    text-align: center;
+
+
+}
+
+header .top .toptop nav ul li a:hover {
+    background-color: #E12E60;
+    border-radius: 8px;
+
+
+}
+
+.name {
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60.95px;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.intro-text {
+    background-color: #EF5D69;
+    display: flex;
+
+    width: 100%;
+}
+
+.intro-text p {
+    background-color: #FCDFE1;
+    width: 30%;
+    font-family: 'Roboto';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22.27px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+
+}
+
+main {
+    background-color: #FCDFE1;
+    display: flex;
+    gap: 20px;
+}
+
+main p {
+    background-color: white;
+    border-radius: 8px;
+    width: 400px;
+    display: flex;
+    padding: 20px;
+    margin: 50px;
+}
+
+main img {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    border-radius: 8px;
+    padding: 50px;
+
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .flogo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0;
+}

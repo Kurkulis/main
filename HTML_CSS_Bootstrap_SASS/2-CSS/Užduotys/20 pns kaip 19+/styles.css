@@ -1,0 +1,126 @@
+.page-cont {
+    max-width: 1500px;
+
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.Skaityti {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #151515;
+    color: white;
+
+}
+
+.flex-container-izanga {
+    height: 675px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #90ee90;
+
+}
+
+.antro-pavad {
+    margin: 0;
+}
+
+.flex-container-izanga-button {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+button {
+    background-color: transparent;
+    border: black solid 2px;
+    padding: 10px 20px;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #151515;
+    color: white;
+}
+
+header h1 {
+    padding: 15px;
+
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+header nav ul li a {
+    cursor: pointer;
+    list-style: none;
+    color: white;
+}
+
+.banner-col-1 {
+    background-color: #7fffd4;
+    color: #151515;
+    text-align: center;
+    justify-content: center;
+}
+
+.banner-col-1 p {
+    padding: 15px;
+}
+
+.info {
+    display: flex;
+    width: 33%;
+
+}
+
+footer {
+    justify-content: space-evenly;
+    background-color: #1e1e1e;
+    color: white;
+
+}
+
+main {
+    background-color: #ffe4c4;
+}
+
+main {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 25%;
+    background-color: #fff1e1;
+    margin: 10px;
+    padding: 30px 20px;
+    border: 1px solid #fff1e1;
+}
+
+footer a {
+    color: rgb(73, 73, 221);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer li {
+    margin-top: 3px;
+}

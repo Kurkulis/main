@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+header {
+    width: 100%;
+}
+header img {
+    width: 100%;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+.sticky-title {
+    position: sticky;
+    top: 0px;
+    background: linear-gradient(180deg, #AFBACB 0%, #fff);
+}
+.sticky-title h2 {
+font-size: 32px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0.5px;
+text-align: left;
+margin-top: 0;
+padding: 15px 0;
+}
+.content {
+    margin-top: 50px;
+}
+.content p {
+font-size: 14px;
+font-weight: 400;
+line-height: 16.8px;
+letter-spacing: 0.41999998688697815px;
+text-align: left;
+}

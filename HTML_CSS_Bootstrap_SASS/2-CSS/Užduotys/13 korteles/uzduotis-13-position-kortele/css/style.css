@@ -1,0 +1,95 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: #e2e1e1;
+    margin: 90px 0;
+}
+
+.container {
+    max-width: 276px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px 0px rgba(96, 97, 112, 0.16);
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    border: 3px solid #3e7fe1;
+    box-shadow: 8px 13px 23px 9px rgba(62, 127, 225, 0.3);
+    border-radius: 16px;
+}
+
+.image-date {
+    height: 208px;
+}
+
+img {
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+}
+
+.date {
+    background-color: #fff;
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    box-shadow: 0px 1px 4px 0px rgba(96, 97, 112, 0.16);
+    position: relative;
+    left: 204px;
+    bottom: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+
+.date span {
+    font-weight: 600;
+    font-size: 24px;
+    padding: 10px 13px;
+}
+
+h2,
+h3 {
+    margin: 0;
+}
+
+h3.subheading {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #959393;
+    padding: 0 16px;
+}
+
+h2.heading {
+    font-weight: 700;
+    font-size: 20px;
+    color: #121212;
+    line-height: 24px;
+    padding: 10px 16px 0;
+}
+
+ul {
+    padding: 16px 16px 26px 5px;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 12px;
+}
+
+ul li a img {
+    width: 15px;
+    height: 15px;
+    color: #959393;
+    border: 1px solid #959393;
+    border-radius: 50%;
+    padding: 6px 8px;
+}

@@ -1,0 +1,25 @@
+.pirmasblokas{
+    background-image:url(kalnas.jpg);
+    background-size: cover;
+}
+.antrasblokas{
+    background-image:url(pieva.jpg);
+    background-size: cover;
+}
+.treciasblokas{
+    background-image:url(upe.jpg);
+    background-size: cover;
+}
+.pirmas{
+    background-color:#0099ff ;
+}
+p{
+    background-color:#f2f2f2;
+    
+}
+.antras{
+    background-color:#008040;
+}
+.trecias{
+    background-color: #800000;
+}

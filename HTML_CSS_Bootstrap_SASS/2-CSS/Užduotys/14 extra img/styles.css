@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.blokas {
+    background-color: #222225B2;
+    display: inline-block;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    position: relative;
+}
+.mega {
+    position: absolute;
+top:-90px;
+left: -90px;
+transform: rotate(45deg);
+}
+h1 {
+
+font-size: 48px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0.41999998688697815px;
+text-align: left;
+
+}
+p {
+
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+
+.button {
+    background-color: #222225B2;
+}
+}
+.button:hover {
+    background-color: white;
+border-radius: 13px;
+}
+.star {
+    position: absolute;
+    right: -35px;
+    bottom: 0;
+}
+.orange {
+    
+    position: absolute;
+    right: -25px;
+    bottom: 60px;
+}
+.blue {
+    position: absolute;
+    right: -25px;
+    bottom: -25px;
+}

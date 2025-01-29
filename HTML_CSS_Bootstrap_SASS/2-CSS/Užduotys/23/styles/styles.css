@@ -1,0 +1,30 @@
+body {
+
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main {
+    background-color: #D4F1E6;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 86.4px;
+    text-align: left;
+    ;
+
+}
+
+.fotkes {
+    gap: 43.24px;
+}
+
+.apacia {
+    background-color: white;
+    display: flex;
+    width: 1100px;
+}

@@ -1,0 +1,38 @@
+h2{background-color: grey;}
+.blokas
+    {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.blokas span
+    {
+    align-items: center;
+    justify-content: center;
+    }
+body{
+    background-color: black;
+    }
+.galerija{
+    background-color: white;
+    }
+.whitebck{
+    background-color: white;
+    }
+.irgiwhite{background-color: white;}
+.gelt{background-color: bisque;}
+.p{color: blue;}
+.link{
+    color: white;
+    background-color: red;
+}
+h3{
+    color: red;
+}
+.textas{color: blue;}

@@ -1,0 +1,116 @@
+body {
+    background-color: #e8e86c;
+}
+.gridas {
+    text-align: center;
+
+}
+.conteiner {
+    max-width: 350px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+.conteiner .flower {
+    width: 350px;
+    border-top-right-radius:30px ;
+    border-top-left-radius: 30px;
+
+}
+.conteiner-bottom {
+    display:flex;
+    justify-content: space-between;
+
+
+}
+.conteiner-bottom p {
+    margin: 0;
+}
+.conteiner-bottom-left {
+    margin-left:25px ;
+}
+.conteiner-bottom-right {
+    margin-right: 25px;
+}
+.conteiner h1,
+.conteiner .flower-text {
+    margin: auto 25px 10px 25px;
+}
+button {
+    background-color: greenyellow;
+    border: none;
+    padding: 6px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 376) {
+    .gridas {
+        text-align: center; /* Center aligns the elements */
+    }
+
+    .conteiner {
+        width: 300px; /* Adjust width for medium screens */
+        margin: 10px auto; /* Center the container with auto margin */
+    }
+
+    .conteiner .flower {
+        width: 300px; /* Match the container width */
+    }
+
+    .conteiner-bottom {
+        display: flex;
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center-align items */
+        gap: 10px; /* Add spacing between elements */
+    }
+
+    button {
+        width: 100%; /* Full width for button to span the container */
+        padding: 10px; /* Add padding for better touch experience */
+        font-size: 1rem; /* Increase font size */
+    }
+}
+@media only screen and (max-width: 375px) {
+    .gridas {
+        text-align: center;
+    }
+
+    .conteiner {
+        width: 90%; /* Use percentage to fit smaller screens */
+        margin: 10px auto; /* Center alignment */
+    }
+
+    .conteiner .flower {
+        width: 100%; /* Adjust image width to fit container */
+    }
+
+    .conteiner-bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px; /* Larger padding for small screens */
+        font-size: 1.1rem; /* Larger font size for small screens */
+    }
+    .conteiner-bottom-left {
+        margin-left: 0;
+    }
+    .conteiner-bottom-right {
+        margin-right: 0;
+    }
+    .conteiner-bottom-right button {
+        width: 260px;
+        margin-bottom: 10px;
+    }
+}

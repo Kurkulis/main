@@ -1,0 +1,89 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Inter;
+}
+
+.slide {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.slide .number {
+    font-size: 128px;
+    font-weight: 400;
+}
+
+#slide-white {
+    background: #FFFFFF;
+}
+
+#slide-green {
+    background: #51CB65;
+}
+
+#slide-red {
+    background: #EA7B7B;
+}
+
+#slide-violet {
+    background: #816EF5;
+}
+
+#slide-grey {
+    background: #D9D9D9;
+}
+
+.menu {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+}
+
+.menu .arrow-up {
+    border-radius: 25px;
+    border: 1px black solid;
+    padding: 15px;
+    height: 25px;
+    width: 25px;
+}
+
+.menu .arrow-up img {
+    font-size: 64px;
+    color: #959393;
+}
+
+.menu nav {
+    background-color: #f5f3f3;
+    border-radius: 16px;
+    max-width: 575px;
+}
+
+.menu nav ul {
+    display: flex;
+    padding-left: 15px;
+}
+
+.menu nav ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #f17965;
+    border: 2px solid #f17965;
+    border-radius: 12px;
+    padding: 8px 16px;
+    margin-right: 8px;
+    font-size: 15px;
+    font-weight: 600px;
+    letter-spacing: -0.5px;
+}

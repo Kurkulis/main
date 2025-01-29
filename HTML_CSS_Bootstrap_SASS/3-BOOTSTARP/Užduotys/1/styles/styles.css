@@ -1,0 +1,181 @@
+/* NAV dalis */
+nav .navbar-collapse .navbar-nav .active,
+nav .navbar-collapse .navbar-nav .nav-link:hover {
+    color: #43C45F !important;
+}
+
+nav .navbar-nav {
+    gap: 30px;
+    padding: 20px 0;
+}
+
+nav .navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    color: #878B9B;
+}
+
+nav .navbar-nav .nav-item {
+    margin: 0 20px;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #404445;
+}
+
+nav .navbar-nav .nav-item:first-child {
+    margin-left: 0;
+}
+
+nav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+
+
+
+/* header */
+header {
+    background-image: url(../images/top_background.svg);
+    height: calc(100vh - 150px);
+    padding-top: 250px;
+    background-size: cover;
+}
+
+header .row .col-12 h1 {
+    font-family: 'Roboto';
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 82.03px;
+    color: #ffffff;
+}
+
+header .row .col-12 p {
+    font-family: 'Roboto';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30.47px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+header .row .col-12 button {
+    background-color: #43C45F;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 15px 55px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* info zona */
+
+.container-fluid .row .col-6 i {
+    color: #49c0fc;
+    font-size: 30px;
+}
+
+.container-fluid .row .col-6 h3 {
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.78px;
+
+}
+
+.container-fluid .row .col-6 p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.35px;
+    color: #5F6B81;
+}
+.info-zonyte {
+    width: 70% !important;
+}
+
+/* video zona */
+
+.container-fluid .video-zona h1 {
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.88px;
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+.container-fluid .video-zona p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.89px;
+    text-align: center;
+    margin-bottom: 25px;
+color: #5F6B81;
+    
+}
+.container-fluid .video-zona iframe {
+    width: 872px;
+    height: 483px;
+}
+.vidosas {
+    background-color:#F1F8FF ;
+    padding: 40px 0;
+}
+
+/* statistika */
+
+.container-fluid .statistika-top h3 {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.98px;
+    text-align: left;
+    
+}
+.container-fluid .statistika-top h1 {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 50.88px;
+    text-align: left;
+
+    
+}
+.statistika {
+    width: 70%;
+}
+.statistika-top {
+    width: 50%;
+}
+.container-fluid .statistika .row i {
+    color: #49c0fc;
+    font-size: 30px;
+}
+.container-fluid .statistika .row h4 {
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 31.8px;
+    padding-top: 10px;
+}
+.container-fluid .statistika .row p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.89px;
+    
+    
+}
+
+/* darbu galerija */

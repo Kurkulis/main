@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pizza delivery</h1>
+    <h2>Online order form</h2><br>
+
+    <form>    
+
+        <table>
+            <tr>
+                <td>*Name:</td>
+                <td><form><input type="text" id="name" name="name"></form></td>
+                <td>*Tel.:</td>
+                <td><form><input type="tel" id="phone" name="phone" ></form></td>
+            </tr>
+            <tr>    
+                <td>*Adress:</td>
+                <td><form><input type="text" id="Adress" name="adress"></form></td>
+                <td>*Email:</td>
+                <td><form><input type="text" id="email" name="email"></form></td>
+             </tr>
+             <tr>             
+                <td>*Town/city:</td>
+                <td><input type="text" id="city" name="city"></form></td>
+             </tr>
+             <tr>             
+                <td>*Postcode:</td>
+                <td><input type="text" id="Postcode" name="Postcode"></form></td>
+             </tr>
+        </table>
+        <p>*Required fields</p>
+
+
+        <p>Toppings:</p>
+        <input type="radio" id="TOP" name="TOP" value="TOP"><label for="TOP">Margherita</label><br>
+        <input type="radio" id="TOP" name="TOP" value="TOP"><label for="TOP">Four seasons</label><br>
+        <input type="radio" id="TOP" name="TOP" value="TOP"><label for="TOP">Meat feast</label><br>
+
+        <p>Size:</p>
+        <input type="radio" id="size" name="size" value="size"><label for="size">Small</label><br>
+        <input type="radio" id="size" name="size" value="size"><label for="size">Medium</label><br>
+        <input type="radio" id="size" name="size" value="size"><label for="size">Large</label><br>
+
+        <p>Extras:</p>
+        <label><input type="checkbox" name="extras" value="Mushrooms"> Mushrooms</label><br>
+        <label><input type="checkbox" name="extras" value="Green peppers"> Green peppers</label><br>
+        <label><input type="checkbox" name="extras" value="Anchovies"> Anchovies</label><br>
+        <label><input type="checkbox" name="extras" value="Extra cheese"> Extra cheese</label><br>
+<br>
+    <Table>
+        <Tr>
+            <td>Prefferred delivery day:</td>
+            <Td><input type="date" id="day" name="day"><br></td>
+        </Tr>
+        <tr>
+            <td>Select a time:</td>
+            <TD><input type="time" id="appt" name="appt"><br></TD>
+        </tr>
+        <tr>
+            <td>Delivery instructions:</td>
+            <td><textarea cols="30" rows="3" placeholder=" "></textarea><br></td>
+        </tr>    
+    </Table>
+
+    <input type="submit" placeholder="Submit order">
+
+    </form>
+</body>
+</html>

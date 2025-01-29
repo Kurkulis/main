@@ -1,0 +1,73 @@
+/* div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+.antras {
+    background-color: green;
+    position: relative;
+    top: 30px;
+    left: 30px;
+} */
+
+
+
+
+
+
+/* p, a {
+    font-size: 2em;
+}
+mark:hover{
+    position: relative;
+    bottom: 10px;
+}
+a:hover {
+    position: relative;
+    left: 20px;
+} */
+
+
+
+
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'arial';
+}
+header {
+    background-image: url('lape.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+h1 {
+margin: 0;
+display: inline-block;
+background-color: blueviolet;
+color: white;
+font-size: 5em;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+}
+p {
+    background-color: aqua;
+    color: red;
+    font-size: 1.5em;
+    max-width: 20%;
+}
+#info {
+    position: absolute;
+    left: 300px;
+    top: 100px;
+margin: 0;
+background: none;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+} */
+

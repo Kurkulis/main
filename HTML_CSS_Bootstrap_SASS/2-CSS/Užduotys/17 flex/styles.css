@@ -1,0 +1,32 @@
+.eile1 {
+    background-color: orange;
+    display: flex;
+}
+.eile2 {
+    background-color: orangered;
+    display: flex;
+}
+.eile2 p {
+    background-color: white;
+    margin: 15px;
+}
+.eile3 {
+    background-color: orange;
+    justify-content: center;
+    display: flex;
+}
+.eile3 p {
+    background-color: white;
+    padding: 15px;
+    width: 30%;
+}
+.eile4 {
+    display: flex;
+    background-color: orangered;
+}
+.eile4 p {
+    background-color: orange;
+    padding: 15px;
+    margin: 15px;
+}
+

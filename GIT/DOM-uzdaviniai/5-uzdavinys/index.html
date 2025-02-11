@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .kontaineris {
+        display: flex;
+        gap: 20px;
+    }
+    .blokas {
+        align-items: center;
+        display: flex;
+        border: 1px solid grey;
+        padding: 10px;
+        gap: 10px;
+    }
+
+</style>
+
+
+</head>
+<body>
+    <div class="kontaineris">
+        <div class="blokas">
+            <label for="dydis">Šrifto dydis:</label>
+            <input type="number" value="16" min="1" max="100" id="dydisInput">
+        </div>
+        
+        <div class="blokas">
+            <span>Teksto stilius:</span>
+            <div class="mygtukai">
+                <button data-tipas="paprastas" class="aktyvus">Paprastas</button>
+                <button data-tipas="pastorintas">Pastorintas</button>
+                <button data-tipas="pasviras">Pasviras</button>
+            </div>
+        </div>
+    </div>
+
+    <p class="tekstas">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Quam dolore exercitationem hic molestiae ab, amet expedita quae 
+        debitis numquam minus nobis pariatur qui a nostrum accusamus 
+        veritatis atque reprehenderit! Nulla.
+    </p>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+

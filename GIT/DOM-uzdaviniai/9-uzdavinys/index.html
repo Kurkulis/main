@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9 uzduotis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+
+    <div class="carousel-container">
+        
+        <div class="carousel">
+            <button id="prev"><img src="img/left.svg"></button>
+            <img id="main-image" src="img/fotke1.jpg" alt="Pagrindinė nuotrauka">
+            <button id="next"><img src="img/right.svg"></button>
+        </div>
+
+        <div class="thumbnails">
+            <img class="thumb ft1 active" src="img/fotke1.jpg" onclick="changeImage(0)">
+            <img class="thumb ft2" src="img/fotke2.jpg" onclick="changeImage(1)">
+            <img class="thumb ft3" src="img/fotke3.jpg" onclick="changeImage(2)">
+            <img class="thumb ft4" src="img/fotke4.jpg" onclick="changeImage(3)">
+            <img class="thumb ft5" src="img/fotke5.jpg" onclick="changeImage(4)">
+        </div>
+
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

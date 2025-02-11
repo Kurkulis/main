@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 uzduotis</title>
+    <link rel="stylesheet" href="styles.css">
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Pasirinkite receptą:</h2>
+        <div class="receptai"></div>
+    </div>
+
+    <div class="container porcijos">
+        <h2>Kiek porcijų gaminsite?</h2>
+        <p class="slider-value">1</p>
+        <input type="range" min="1" max="10" value="2" class="slider" id="parcijos">
+    </div>
+
+    <div class="container ingridientai">
+        <h2>Jums reikės šių ingredientų, tokiais kiekiais:</h2>
+        <div id="results"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

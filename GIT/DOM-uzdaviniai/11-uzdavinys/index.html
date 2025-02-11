@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prekių krepšelis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="img/piggy.png">
+        </div>
+
+        <div class="form-container">
+            <h1><span class="page-name">Pinigų</span> Konvertavimas</h1>
+
+            <label for="amount">Turima suma</label>
+            <div class="input-group">
+                <input type="number" id="amount" placeholder="0.01" min="0.01">
+                <select id="currency-from">
+                    <option value="EUR">EUR</option>
+                    <option value="USD">USD</option>
+                    <option value="GBP">GBP</option>
+                    <option value="PLN">PLN</option>
+                    <option value="NOK">NOK</option>
+                </select>
+            </div>
+            <p class="input-helper">Įveskite savo turimą pinigų sumą ir pasirinkite valiutą.</p>
+
+            <label for="currency-to">Norima valiuta</label>
+            <br>
+            <select id="currency-to">
+                <option value="USD">Doleriai</option>
+                <option value="EUR">Eurai</option>
+                <option value="GBP">Svarai</option>
+                <option value="PLN">Zlotai </option>
+                <option value="NOK">Krona</option>
+            </select>
+            <p class="input-helper">Pasirinkite, į kokią valiutą norite keisti turimą sumą.</p>
+            <div class="buttons">
+                <button id="convert-btn">Konvertuoti</button>
+                <button class="hide" id="reset-btn">Reset</button>
+            </div>
+            <div class="results">
+                <!-- <h1></h1>
+                <p><strong>Santykis:</strong>=</p> -->
+            </div>
+        </div>
+    </div>
+
+
+    <script src="scripts.js"></script>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prekių krepšelis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="cart-container">
+    <h2>Prekių krepšelis</h2>
+
+    <table class="cart-table">
+        <thead>
+            <tr>
+                <th>Produktas</th>
+                <th>Vieneto kaina</th>
+                <th>Kiekis</th>
+                <th>Bendra kaina</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="product-row">
+                <td class="product-name">
+                    <img src="img/SIM.png">
+                    <span>Sim kortelė</span>
+                </td>
+                <td><span class="unit-price">2</span> e</td>
+                <td>
+                    <button class="minus">−</button>
+                    <span class="quantity">1</span>
+                    <button class="plus">+</button>
+                </td>
+                <td><span class="total-price">2</span> e</td>
+                <td><button class="delete-btn">🗑</button></td>
+            </tr>
+            <tr class="product-row">
+                <td class="product-name">
+                    <img src="img/APPLE.png">
+                    <span>Telefonas</span>
+                </td>
+                <td><span class="unit-price">1200</span> e</td>
+                <td>
+                    <button class="minus">−</button>
+                    <span class="quantity">1</span>
+                    <button class="plus">+</button>
+                </td>
+                <td><span class="total-price">1200</span> e</td>
+                <td><button class="delete-btn">🗑</button></td>
+            </tr>
+            <tr class="product-row">
+                <td class="product-name">
+                    <img src="img/SD.jfif">
+                    <span>SD kortelė</span>
+                </td>
+                <td><span class="unit-price">35</span> e</td>
+                <td>
+                    <button class="minus">−</button>
+                    <span class="quantity">1</span>
+                    <button class="plus">+</button>
+                </td>
+                <td><span class="total-price">35</span> e</td>
+                <td><button class="delete-btn">🗑</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="cart-footer">
+        <button class="update-btn">Atnaujinti</button>
+        <span class="final-price">Užsakymo suma: <strong>1272.00 €</strong></span>
+    </div>
+
+    <script src="scripts.js"></script>
+</div>
+
+</body>
+</html>

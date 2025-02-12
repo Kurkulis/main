@@ -54,7 +54,7 @@ document.getElementById('convert-btn').addEventListener('click', function(){
         return;
     }
 
-    let rate = valiutos[pirmineValiuta] && valiutos[pirmineValiuta][antrineValiuta];
+    let rate = valiutos[pirmineValiuta][antrineValiuta];
 
     let rezultatas = (rate * kiekis).toFixed(2);
 

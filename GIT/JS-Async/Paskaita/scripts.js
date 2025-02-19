@@ -67,46 +67,72 @@
 
 //                    5 uzduotis
 
-function pvz(masyvas, callbackFunkcija) {
-    masyvas.forEach(item => callbackFunkcija(item));
-};
+// function pvz(masyvas, callbackFunkcija) {
+//     masyvas.forEach(item => callbackFunkcija(item));
+// };
 
-function naujasObjektas(item) {
-    console.log(
-        {
-            marke: item.marke,
-            modelis: item.modelis
-        }
-    );
-};
+// function naujasObjektas(item) {
+//     console.log(
+//         {
+//             marke: item.marke,
+//             modelis: item.modelis
+//         }
+//     );
+// };
 
-let auto = [
-    {marke: 'audi', modelis: 'a7', kaina: 123, rida: 156},
-    {marke: 'audi', modelis: 'a6', kaina: 1023, rida: 478555},
-    {marke: 'audi', modelis: 'a5', kaina: 12003, rida: 15006}
-];
+// let auto = [
+//     {marke: 'audi', modelis: 'a7', kaina: 123, rida: 156},
+//     {marke: 'audi', modelis: 'a6', kaina: 1023, rida: 478555},
+//     {marke: 'audi', modelis: 'a5', kaina: 12003, rida: 15006}
+// ];
 
-pvz(auto, naujasObjektas);
+// pvz(auto, naujasObjektas);
 
 //                    6 uzduotis
 
-function checkUserLogin(isUserLogedIn) {
-    return new Promise((resolve, reject) => {
-        if (isUserLogedIn) {
-            resolve('user loged in');
-        } else {
-            reject('user loged out')
-        }
-    })
-}
+// function checkUserLogin(isUserLogedIn) {
+//     return new Promise((resolve, reject) => {
+//         if (isUserLogedIn) {
+//             resolve('user loged in');
+//         } else {
+//             reject('user loged out')
+//         }
+//     })
+// }
 
-checkUserLogin(true)
-.then(message => console.log(message))
-.catch(error => console.log(error));
+// checkUserLogin(true)
+// .then(message => console.log(message))
+// .catch(error => console.log(error));
 
-checkUserLogin(false)
-.then(message => console.log(message))
-.catch(error => console.log(error));
+// checkUserLogin(false)
+// .then(message => console.log(message))
+// .catch(error => console.log(error));
 
 
 //                    7 uzduotis
+
+async function ageTest(age) {
+    return new Promise((resolve,reject) => { 
+        if (age === undefined || typeof age !== 'number') {
+            reject(new Error('neteisingas suvedimas'));
+        } else if (age >= 18) {
+            resolve('pilnametis');
+        } else {
+            resolve('nepilnametis');
+        }
+    })
+
+}
+
+ageTest(12)
+.then(message => console.log(message))
+.catch(error => console.error(error.message));
+ageTest()
+.then(message => console.log(message))
+.catch(error => console.error(error.message));
+ageTest(19)
+.then(message => console.log(message))
+.catch(error => console.error(error.message));
+ageTest('abc')
+.then(message => console.log(message))
+.catch(error => console.error(error.message));

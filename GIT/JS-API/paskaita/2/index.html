@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .movies-container {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            max-width: 1200px;
+
+        }
+
+        .movie {
+            width: 210px;
+            text-align: left;
+        }
+        .search {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1>Select a Movie</h1>
+
+    <!-- Dropdown for movies -->
+    <select id="movieDropdown">
+        <option value="">Loading movies...</option>
+    </select>
+    <button id="selectButton">Show Movie</button>
+
+    <!-- Movies will be displayed here -->
+    <div id="moviesContainer"></div>
+
+
+    <script src="scripts.js"></script>
+
+
+</body>
+
+</html>

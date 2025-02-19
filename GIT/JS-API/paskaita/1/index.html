@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .movies-container {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            max-width: 1200px;
+
+        }
+
+        .movie {
+            width: 210px;
+            text-align: left;
+        }
+        .search {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <div>
+        <button id="gautiBairi" >duok bairi</button>
+        <br>
+        <p class="bairis"></p>
+    </div> -->
+    <div class="search">
+        <h1>Movie Search</h1>
+        <input type="text" id="searchInput" placeholder="Enter movie title">
+        <button id="searchButton">Search</button>
+    </div>
+
+
+    <div id="moviesContainer"></div>
+
+
+
+    <script src="scripts.js"></script>
+
+
+</body>
+
+</html>

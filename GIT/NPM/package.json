@@ -1,0 +1,19 @@
+{
+  "name": "pirmas-npm-pvz",
+  "version": "1.0.0",
+  "description": "pirmasis pasibandymas su npm",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "npm",
+    "js",
+    "html"
+  ],
+  "author": "ignas",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}

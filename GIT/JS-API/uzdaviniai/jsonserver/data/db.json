@@ -1,30 +1,78 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "Sveiki atvyke i mano tinklarasti",
-            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "likes": 30
-        },
-        {
-            "id": 2,
-            "title": "Kaip tapti programuotoju",
-            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "likes": 225
-        },
-        {
-            "id": 3,
-            "title": "Mokausi Vilnius Coding School",
-            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "likes": 87
-        }
-    ],
-    "polls": [
-        {
-            "id": 1,
-            "question": "Kas patinka labiau - Webpack ar Gulp?",
-            "answerA": "Webpack",
-            "answerB": "Gulp"
-        }
-    ]
+  "posts": [
+    {
+      "id": "1",
+      "title": "Sveiki atvyke i mano tinklarasti",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "likes": 30
+    },
+    {
+      "id": "3",
+      "title": "Mokausi Vilnius Coding School",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "likes": 87
+    },
+    {
+      "id": "2207",
+      "title": "asdasdasd",
+      "body": "vienas du trys",
+      "likes": 0
+    },
+    {
+      "id": "475a",
+      "title": "test",
+      "body": "test",
+      "likes": 0
+    },
+    {
+      "id": "db95",
+      "title": "asdasd",
+      "body": "asdasdasd",
+      "likes": 0
+    },
+    {
+      "id": "9e25",
+      "title": "qweqwe",
+      "body": "asdasdasdasdasdasd",
+      "likes": 0
+    },
+    {
+      "id": "4614",
+      "title": "asdasda",
+      "body": "qweqweqweqwe",
+      "likes": 0
+    },
+    {
+      "id": "e682",
+      "title": "123",
+      "body": "321",
+      "likes": 0
+    },
+    {
+      "id": "db39",
+      "title": "654",
+      "body": "654",
+      "likes": 0
+    },
+    {
+      "id": "7782",
+      "title": "987",
+      "body": "987",
+      "likes": 0
+    },
+    {
+      "id": "83f6",
+      "title": "741",
+      "body": "741",
+      "likes": 0
+    }
+  ],
+  "polls": [
+    {
+      "id": "1",
+      "question": "Kas patinka labiau - Webpack ar Gulp?",
+      "answerA": "Webpack",
+      "answerB": "Gulp"
+    }
+  ]
 }

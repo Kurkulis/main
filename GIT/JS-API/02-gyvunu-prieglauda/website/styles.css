@@ -1,0 +1,62 @@
+body {
+    background-color: #f7f7f7;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.badge {
+    font-size: 0.85rem;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+form .form-label {
+    font-weight: 600;
+}
+
+form .btn {
+    font-weight: bold;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+}
+.animal-card {
+    max-width: 400px; /* ✅ Platesnės kortelės */
+    margin: 0 auto; /* Centravimas */
+  }
+  
+  .card {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    width: 100%; /* Užtikrina, kad kortelė užims visą col plotį */
+  }
+  
+  #animal-main {
+    justify-content: center; /* Kortelės bus išlygintos per centrą */
+  }
+  
+  .badge {
+    font-size: 0.85rem;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+#mygtuks {
+    margin-top: 20px;
+}  

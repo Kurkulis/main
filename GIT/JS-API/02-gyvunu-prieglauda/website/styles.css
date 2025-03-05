@@ -57,6 +57,17 @@ form .btn {
     padding: 5px 10px;
     border-radius: 20px;
   }
-#mygtuks {
+#mygtuks, #clear  {
     margin-top: 20px;
+    
 }  
+#clear {
+    margin-left: 10px;
+    background-color: red;
+    border: red 1px solid;
+    display:none;
+}
+img {
+    height: 25vh;
+    width: 25vh;
+}

@@ -14,20 +14,31 @@
     <div class="container py-4">
         <!-- Filtrų sekcija -->
         <section class="mb-5">
-            <h4 class="mb-3">Filtrai:</h4>
-                <form class="row g-3" id="filterForm">
-                    
-                </form>
-                <div class="col-md-2 d-flex justify-content-center">
-                    <button type="submit" class="btn btn-primary w-100" id="mygtuks">Filtruoti</button>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                    Filtrai
+                </button>
+            </p>
+            <div style="min-height: 120px;">
+                <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                    <h4 class="mb-3">Filtrai:</h4>
+                    <form class="row g-3" id="filterForm">
+
+                    </form>
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <button type="submit" class="btn btn-primary w-100" id="mygtuks">Filtruoti</button>
+                        <button class="btn btn-primary w-100" id="clear">Clear</button>
+                    </div>
                 </div>
+            </div>
         </section>
 
         <!-- Gyvūnų sąrašas -->
         <section>
-            <h4 class="mb-4">Gyvūnų sąrašas:</h4>
+            <h4 class="mb-4">Gyvūnų sąrašas<span class="quantity"></span>:</h4>
             <div class="row g-4 justify-content-center" id="animal-main">
-                
+
             </div>
         </section>
 

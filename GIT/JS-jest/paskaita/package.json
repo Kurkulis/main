@@ -4,7 +4,8 @@
   "description": "jest intro",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-verbose": "jest --verbose"
   },
   "author": "ignas",
   "license": "ISC",

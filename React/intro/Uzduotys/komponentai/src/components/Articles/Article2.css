@@ -1,0 +1,9 @@
+.articleAntras {
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto 10px auto;
+}

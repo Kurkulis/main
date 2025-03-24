@@ -1,0 +1,14 @@
+.naujienos-wrapper {
+    background-color: bisque;
+    color: black;
+}
+
+.naujienos-wrapper .naujienos-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.naujienos-wrapper .naujiena-blokas {
+    width: calc(50% - 10px);
+}

@@ -1,0 +1,230 @@
+{
+    "navigation": {
+        "title": "react landing page",
+        "navigationItems": [
+            "features",
+            "about",
+            "services",
+            "gallery",
+            "testimonials",
+            "team",
+            "contact"
+        ]
+    },
+    "header": {
+        "title": "we are a landing page",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
+        "button": "learn more"
+    },
+    "features": {
+        "title": "features",
+        "featuresItems": [
+            {
+                "icon": "BsWechat",
+                "title": "lorem ipsum",
+                "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            },
+            {
+                "icon": "BsMegaphone",
+                "title": "lorem ipsum",
+                "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            },
+            {
+                "icon": "BsPeople",
+                "title": "lorem ipsum",
+                "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            },
+            {
+                "icon": "BsMagic",
+                "title": "lorem ipsum",
+                "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            }
+        ]
+    },
+    "about": {
+        "title": "About Us",
+        "paragraph": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        ],
+        "whyChooseUsTitle": "Why Choose Us?",
+        "reasonsLeft": [
+            "Lorem ipsum dolor",
+            "Tempor incididunt",
+            "Lorem ipsum dolor",
+            "Incididunt ut labore"
+        ],
+        "reasonsRight": [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ]
+    },
+    "services": {
+        "title": "Our Services",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec.",
+        "items": [
+            {
+                "icon": "FaWordpress",
+                "title": "Lorem ipsum dolor",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasdd commodo nibh ante facilisis bibendum dolor feugiat at."
+            },
+            {
+                "icon": "FaCartPlus",
+                "title": "Consectetur adipiscing",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasdd commodo nibh ante facilisis bibendum dolor feugiat at."
+            },
+            {
+                "icon": "FaCloudUploadAlt",
+                "title": "Lorem ipsum dolor",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasdd commodo nibh ante facilisis bibendum dolor feugiat at."
+            },
+            {
+                "icon": "FaLanguage",
+                "title": "Consectetur adipiscing",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasdd commodo nibh ante facilisis bibendum dolor feugiat at."
+            },
+            {
+                "icon": "FaPlane",
+                "title": "Lorem ipsum dolor",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasdd commodo nibh ante facilisis bibendum dolor feugiat at."
+            },
+            {
+                "icon": "FaChartPie",
+                "title": "Consectetur adipiscing",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasdd commodo nibh ante facilisis bibendum dolor feugiat at."
+            }
+        ]
+    },
+    "gallery": {
+        "title": "Gallery",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.",
+        "images": [
+            "01-large.jpg",
+            "02-large.jpg",
+            "03-large.jpg",
+            "04-large.jpg",
+            "05-large.jpg",
+            "06-large.jpg",
+            "07-large.jpg",
+            "08-large.jpg",
+            "09-large.jpg"
+        ]
+    },
+    "testimonials": {
+        "title": "What Our Clients Say",
+        "items": [
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.",
+                "author": "John Doe",
+                "image": "01.jpg"
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.",
+                "author": "Johnathan Doe",
+                "image": "02.jpg"
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.",
+                "author": "John Doe",
+                "image": "03.jpg"
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.",
+                "author": "John Doe",
+                "image": "04.jpg"
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.",
+                "author": "Jane Doe",
+                "image": "05.jpg"
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.",
+                "author": "Johnathan Doe",
+                "image": "06.jpg"
+            }
+        ]
+    },
+    "team": {
+        "title": "Meet The Team",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec.",
+        "members": [
+            {
+                "name": "John Doe",
+                "position": "Director",
+                "image": "01.jpg"
+            },
+            {
+                "name": "Mike Doe",
+                "position": "Senior Designer",
+                "image": "02.jpg"
+            },
+            {
+                "name": "Jane Doe",
+                "position": "Senior Designer",
+                "image": "03.jpg"
+            },
+            {
+                "name": "Karen Doe",
+                "position": "Project Manager",
+                "image": "04.jpg"
+            }
+        ]
+    },
+    "contactUs": {
+        "title": "Get In Touch",
+        "subtitle": "Please fill out the form below to send us an email and we will get back to you as soon as possible.",
+        "form": {
+            "fields": [
+                {
+                    "type": "text",
+                    "name": "name",
+                    "placeholder": "Name"
+                },
+                {
+                    "type": "email",
+                    "name": "email",
+                    "placeholder": "Email"
+                },
+                {
+                    "type": "textarea",
+                    "name": "message",
+                    "placeholder": "Message"
+                }
+            ],
+            "buttonText": "Send Message"
+        },
+        "info": {
+            "address": {
+                "label": "Address",
+                "text": "4321 California St, San Francisco, CA 12345"
+            },
+            "phone": {
+                "label": "Phone",
+                "text": "+1 123 456 1234"
+            },
+            "email": {
+                "label": "Email",
+                "text": "info@company.com"
+            }
+        },
+        "socials": [
+            {
+                "icon": "FaFacebookF",
+                "url": "#"
+            },
+            {
+                "icon": "FaTwitter",
+                "url": "#"
+            },
+            {
+                "icon": "FaYoutube",
+                "url": "#"
+            }
+        ]
+    },
+    "footer": {
+        "text": "© 2025 Land Page Template. Design by delfi"
+    }
+}

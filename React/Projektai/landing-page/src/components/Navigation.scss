@@ -1,0 +1,40 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; // aukščiausias sluoksnio prioritetas
+    background-color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+
+    .navbar-brand {
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+        color: #333333;
+    }
+
+    .nav-link {
+        color: #414141;
+        margin: 0 0.75rem;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: #007bff;
+        }
+    }
+
+    .nav-link.active {
+        font-weight: bold;
+        color: #007bff;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+}

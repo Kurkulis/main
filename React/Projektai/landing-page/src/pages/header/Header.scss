@@ -1,0 +1,58 @@
+.header-section {
+    background-image: url('../../assets/images/intro-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 80px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    color: white;
+    text-align: center;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: transparentize(#000, 0.6); // 60% transparent black = grey effect
+
+    }
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 1.1rem;
+        max-width: 600px;
+        margin: 0 auto 2rem auto;
+    }
+
+    .btn-primary {
+        background: linear-gradient(145deg, #5a9df9, #6a6ffb);
+        border: none;
+        text-transform: uppercase;
+        padding: 0.75rem 2rem;
+        font-weight: bold;
+        border-radius: 999px;
+
+        &:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+    }
+}

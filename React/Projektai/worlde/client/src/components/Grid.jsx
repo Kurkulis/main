@@ -1,9 +1,13 @@
-const Grid = () => {
+import Row from "./Row"
+
+const Grid = ({ currentGuess, guesses, turn }) => {
     return (
-        <>
-            Grid
-        </>
-    );
-};
+        <div>
+            {guesses.map((guess, index) => {
+                return <Row key={index} guess={guess} />
+            })}
+        </div>
+    )
+}
 
 export default Grid;

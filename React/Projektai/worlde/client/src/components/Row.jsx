@@ -1,7 +1,13 @@
 const Row = () => {
     return (
         <>
-            Row
+            <div className="row">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </>
     );
 };

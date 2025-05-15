@@ -1,0 +1,26 @@
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.movie-card img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.movie-card h5 {
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.movie-card:hover img {
+    transform: scale(1.05);
+}

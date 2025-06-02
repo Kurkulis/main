@@ -1,0 +1,73 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the capital of Lithuania?",
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Vilnius"
+                },
+                {
+                    "id": 2,
+                    "value": "Kaunas"
+                },
+                {
+                    "id": 3,
+                    "value": "Klaipeda"
+                },
+                {
+                    "id": 4,
+                    "value": "London"
+                }
+            ],
+            "answerId": 1
+        },
+        {
+            "id": 2,
+            "question": "What is the color of the sky?",
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Green"
+                },
+                {
+                    "id": 2,
+                    "value": "Blue"
+                },
+                {
+                    "id": 3,
+                    "value": "Red"
+                },
+                {
+                    "id": 4,
+                    "value": "purple"
+                }
+            ],
+            "answerId": 2
+        },
+        {
+            "id": 3,
+            "question": "which number is the biggest?",
+            "options": [
+                {
+                    "id": 1,
+                    "value": "1111"
+                },
+                {
+                    "id": 2,
+                    "value": "222"
+                },
+                {
+                    "id": 3,
+                    "value": "33"
+                },
+                {
+                    "id": 4,
+                    "value": "4"
+                }
+            ],
+            "answerId": 1
+        }
+    ]
+}

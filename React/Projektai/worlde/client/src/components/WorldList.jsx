@@ -18,6 +18,8 @@ const WordList = () => {
 
     return (
         <div className="solution">
+            {solution && <h2>{solution}</h2>}
+
             {solution && <Wordle solution={solution} />}
         </div>
     );

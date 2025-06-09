@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { createContext } from "react";
+import { createContext, useState } from "react";
 
 export const TodoContext = createContext();
 
@@ -17,14 +16,19 @@ const TodoContextProvider = (props) => {
         )
     }
 
+    const setFilter = (value) => {
+        setFilterState(value);
+    };
+
     return (
-        <TodoContext.Provider value={{
-            todos: todosState,
-            addTodo,
-            toggleTodo,
-            setFilter: setFilterState,
-            filter: filterState
-        }}>
+        <TodoContext.Provider
+            value={{
+                todos: todosState,
+                addTodo,
+                toggleTodo,
+                setFilter,
+                filter: filterState
+            }}>
             {props.children}
         </TodoContext.Provider>
     )

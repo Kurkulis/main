@@ -12,7 +12,9 @@ function App() {
   // antroji uzduotis
 
   let kazkas = 'monkey';
-  console.log(kazkas);
+  let darKazkas = 123;
+  console.log(typeof kazkas);
+  console.log(typeof darKazkas);
 
   // trecioji uzduotis
   let tekstas = "123";

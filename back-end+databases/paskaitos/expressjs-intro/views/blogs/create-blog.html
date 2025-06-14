@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apie mane</title>
+</head>
+
+<body>
+    <nav>
+        <div class="site-title">
+            <a href="/">
+                <h1>Mano tinklaraštis</h1>
+            </a>
+            <p>Fullstack pamokos</p>
+        </div>
+        <ul>
+            <li><a href="/">Pamokos</a></li>
+            <li><a href="/apie">Apie</a></li>
+            <li><a href="/blogs/create-blog">Nauja pamoka</a></li>
+        </ul>
+    </nav>
+
+    <div class="create-blog content">
+        <form>
+            <label for="title">Pamokos pavadinimas</label>
+            <input type="text" id="title" required />
+
+            <label for="santrauka">Santrauka</label>
+            <input type="text" id="santrauka" required />
+
+            <label for="body">Turinys</label>
+            <textarea id="body" required></textarea>
+
+            <button>Kurti pamoką</button>
+        </form>
+    </div>
+</body>
+
+</html>

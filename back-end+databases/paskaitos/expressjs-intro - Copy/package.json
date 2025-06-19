@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
-  "author": "",
+  "author": "daniel",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {

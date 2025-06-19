@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blogų sąrašas</title>
+</head>
+
+<body>
+    <h1>Blogai</h1>
+    <ul>
+        <% blogs.forEach(blog=> { %>
+            <li>
+                <strong>
+                    <%= blog.title %>
+                </strong> — <%= blog.santrauka %>
+            </li>
+            <% }) %>
+    </ul>
+</body>
+
+</html>

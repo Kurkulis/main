@@ -26,7 +26,7 @@
                             <%= item.price %>
                         </td>
                         <td>
-                            <button>edit</button>
+                            <a href="/edit/<%= item._id %>"><button>edit</button></a>
                             <button onclick="onDeleteClick('<%= item._id %>')">delete</button>
                         </td>
                     </tr>

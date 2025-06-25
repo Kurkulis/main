@@ -27,15 +27,22 @@ const receptas_create_get = (req, res) => {
     res.render('create');
 }
 
-
 const receptas_edit_get = (req, res) => {
+    const id = req.params.id;
 
+    Receptas.findById(id)
+        .then(result => res.render('edit', { receptas: result }))
+        .catch(e => console.log(e));
 }
 
 const receptas_edit_put = (req, res) => {
+    const { title, description, lelel, price } = new Receptas(req.body);
+    const id = req.params.id;
 
+    Receptas.findByIdAndUpdate(id, { title, description, lelel, price })
+        .then(() => res.redirect('/receptai/list'))
+        .catch(e => console.log(e));
 }
-
 
 module.exports = {
     receptas_list,
@@ -44,6 +51,7 @@ module.exports = {
     receptas_create_get,
     receptas_edit_get,
     receptas_edit_put
+
 };
 
 
